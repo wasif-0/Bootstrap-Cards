@@ -1,0 +1,14 @@
+.Container{
+    display: flex ;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+h1{
+    text-align: center;
+    background-color: rgb(34, 33, 33);
+    color: white !important;
+    padding: 10px;
+    text-transform: uppercase;
+}

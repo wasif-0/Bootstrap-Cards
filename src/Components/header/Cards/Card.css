@@ -1,0 +1,31 @@
+/* Card.css */
+
+.card-body {
+    padding: 1.5rem;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  
+  button {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  .card-img-top {
+    height: 400px; /* Set a fixed height */
+    object-fit: cover; /* Ensures the image covers the area without stretching */
+    object-position: center; /* Optional: controls which part of the image is focused */
+    border-radius: 10px 10px 0 0; /* Optional: rounded corners for the top of the card */
+  }  
